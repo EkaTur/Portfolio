@@ -1,0 +1,365 @@
+body {
+    font-family: 'Alatsi', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #000000, #37306B, #D27685, #39A6F4, #FFF);
+    background-repeat: no-repeat;
+    color: #000000;
+    overflow-x: hidden;
+    background-color: #37306B;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+h1 {
+    background-color: rgba(241, 243, 246, 0.881);
+    box-shadow: 2px 2px 2px rgba(250, 248, 248, 0.881);
+    width: 380px;
+    height: 75px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 15px;
+    text-shadow: 5px 8px 4px rgba(0, 0, 0, 0.30);
+    margin-left: 95px;
+    margin-top: 68px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 30px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+p {
+    margin: 0;
+}
+
+.text-input {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Alatsi', sans-serif;
+    margin: 5px;
+    font-size: 20px;
+    width: 440px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px rgba(250, 248, 248, 0.881);
+}
+
+.linkNav {
+    position: absolute;
+    margin-top: 68px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 28px;
+    width: 700px;
+}
+
+.menuItem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('moon.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.aboutMeSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 600px;
+}
+
+.descriptionCont {
+    width: 600px;
+    margin-left: 35px;
+}
+
+.descriptionPar, .animPar {
+    text-align: center;
+    text-shadow: 1px 1px 10px #FFF;
+    font-size: 50px;
+}
+
+.iconsCont {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    margin-right: 255px;
+    margin-top: 50px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    filter: drop-shadow(1px 1px 10px #FFF);
+    margin: 15px;
+}
+
+.certificatesHeader, .projectsHeader, .contactsHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.certificatesHeader {
+    margin-top: -220px;
+}
+
+.certificatesFirstRow {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.certificatesSecondRow {
+    display: flex;
+    justify-content: center;
+}
+
+.certificate {
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px rgba(250, 248, 248, 0.881);
+}
+
+.projectsHeader {
+    margin-top: 50px;
+    margin-bottom: -20;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projectItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.mockup {
+    width: 350px;
+    margin-bottom: -20px;
+    filter: drop-shadow(2px 2px 10px #FFF);
+}
+
+.focused {
+    width: 360px;
+    filter: drop-shadow(10px 10px 50px #FFF);
+}
+
+.siteLink {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.contactsHeader {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #D9D9D9;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Alatsi', sans-serif;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    width: 200px;
+    box-shadow: 2px 2px 2px rgba(250, 248, 248, 0.881);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.contactDirect {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactBox {
+    display: flex;
+    margin: 5px;
+}
+
+.iconContact {
+    width: 50px;
+    filter: drop-shadow(2px 2px 2px #FFF);
+}
+
+.contactLink {
+    margin-left: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.blinking-dot {
+    width: 3px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.626);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+}
+
+@media all and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 35px;
+        width: 370px;
+    }
+
+    .menu {
+        margin-right: 0;
+        width: 600px;
+    }
+
+    .linkNav {
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 22px;
+    }
+
+    .menuItem {
+        width: 150px;
+        height: 150px;
+    }
+
+    .aboutMeSection {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        height: 350px;
+    }
+
+    .descriptionCont {
+        width: 380px;
+        margin-left: 0;
+    }
+
+    .descriptionPar, .animPar {
+        font-size: 30px;
+    }
+
+    .iconsCont {
+        width: 300px;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+        margin: 15px;
+    }
+
+    .certificatesHeader {
+        margin-top: 100px;
+    }
+
+    .certificatesFirstRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificate {
+        width: 380px;
+    }
+
+    .siteLink {
+        text-align: center;
+        margin-top: -20px;
+        margin-left: 0;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    }
+
+    .contactDirect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media all and (max-width: 500px) {
+    .menu {
+        margin-right: 0;
+        width: 350px;
+        }
+        
+    .text-input {
+        width: 300px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .certificate {
+        width: 300px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3 {
+        text-align: center;
+    }
+}
