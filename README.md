@@ -11,13 +11,11 @@ This repository contains the source code for my personal portfolio website. The 
 ## Table of Contents
 
 - [About](#about)
-- [Website Preview](#website-preview)
 - [Projects](#projects)
 - [Certificates](#certificates)
 - [Contact](#contact)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Projects
 
