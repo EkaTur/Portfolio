@@ -1,0 +1,13 @@
+.certificatesHeader {
+    text-align: center;
+}
+
+.CertificateContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.certificate {
+    opacity: 0.8;
+}

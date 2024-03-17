@@ -1,0 +1,26 @@
+img {
+    margin: 10px;
+}
+
+.contactsHeader {
+    text-align: center;
+}
+
+.contactLink {
+    font-size: 18px;
+}
+
+.BigContactsContainer {
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+}
+
+.flexContacts {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.aboutHeader {
+    text-align: center;
+    margin: 0;
+}
+
+.textDecoration {
+    font-weight: bold;
+}
+
+@media all and (max-width: 1200px) {
+    .aboutHeader {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,65 @@
+.projectName {
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.projectMoc {
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.headerProjects {
+    text-align: center;
+}
+
+.ProjectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ProjectItemContainer {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.ProjectItemContainer:hover .technologiesContainer {
+    opacity: 1;
+}
+
+.technologiesContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 20px;
+    list-style: none;
+}
+
+.technoPar {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+} 
+
+.projectLinkContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.projectLink {
+    font-size: 18px;
+}
+
+@media all and (max-width: 800px) {
+
+}

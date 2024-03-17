@@ -1,0 +1,84 @@
+h3 {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    height: 350px;
+}
+
+li {
+    font-size: 18px;
+    list-style: none;
+    margin: 15px;
+    height: 28px;
+}
+
+.HeaderContactsContainer {
+    margin-top: 25px;
+    opacity: 0.7;
+}
+
+.origin {
+    opacity: 0.5;
+    transition: opacity 3s ease;
+}
+
+.activeStyle {
+    font-size: 20px;
+    font-weight: bold;
+    transition: font-size 2s ease, font-weight 2s ease, opacity 2s ease;
+}
+
+.origin:hover,
+.origin:focus,
+.activeStyle:hover,
+.activeStyle:focus {
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.originHR hr {
+    width: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: bolder;
+    transition: width 2s ease;
+}
+
+.activeHR hr {
+    width: 115px;
+    display: inline-block;
+    margin-right: 20px;
+    transition: width 2s ease;
+    font-weight: bolder;
+}
+
+.activeHR hr {
+    transition: width 2s ease;
+}
+
+.originHR:hover hr,
+.originHR:focus hr,
+.activeHR:hover hr,
+.activeHR:focus hr {
+    width: 115px;
+    transition: width 2s ease;
+    margin-right: 20px;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+@media all and (max-width: 1200px) {
+    nav{
+        display: none;
+    }
+}
