@@ -2,10 +2,6 @@ img {
     margin: 10px;
 }
 
-.contactsHeader {
-    text-align: center;
-}
-
 .contactLink {
     font-size: 18px;
 }
@@ -17,10 +13,15 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: right;
+    width: 100%;
 }
 
 .flexContacts {
     display: flex;
     align-items: center;
+    width: 100%;
+}
+
+.iconContacts {
+    filter: drop-shadow(1px 1px 10px #FFF);
 }

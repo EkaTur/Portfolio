@@ -30,6 +30,7 @@ body {
 .RightSideContainer {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 800px;
 }
 
@@ -43,6 +44,8 @@ body {
 
 .ContactsContainer {
   margin-bottom: 20px;
+  align-self: center;
+  width: 100%;
 }
 
 .projectMoc {
