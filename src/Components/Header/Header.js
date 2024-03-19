@@ -59,7 +59,7 @@ const Header = () => {
     return (
         <div>
             <h1 className='headerName'>Ekaterina Savoskina</h1>
-            <h3 className='headerFrontEnd'></h3>
+            <h3 className='headerFrontEnd'>Info</h3>
             <nav>
                 <ul>
                     <li className={activeLink === 'about' ? "activeHR" : "originHR listItem"}>
