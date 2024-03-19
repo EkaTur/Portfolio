@@ -77,10 +77,10 @@ const Header = () => {
                 </ul>
             </nav>
             <div className='HeaderContactsContainer'>
-                <a href='https://github.com/EkaTur' className='headerLink' target="_blank" rel="noopener noreferrer"><img src={github} alt='gitHub' width='60px'/></a> 
-                <a href='https://www.linkedin.com/in/ekaterina-savoskina/' className='headerLink' target="_blank" rel="noopener noreferrer"><img src={linked} alt='linkedIn' width='60px'/></a> 
-                <a href='mailto:savosya23@gmail.com'className='headerLink'><img src={mail} alt='mail' width='60px'/></a> 
-                <a href='tel:+31686158639' className='headerLink'><img src={phone} alt='phone' width='60px'/></a>
+                <a href='https://github.com/EkaTur' className='headerLink' target="_blank" rel="noopener noreferrer"><img src={github} alt='gitHub' className='iconContacts' width='60px'/></a> 
+                <a href='https://www.linkedin.com/in/ekaterina-savoskina/' className='headerLink' target="_blank" rel="noopener noreferrer"><img src={linked} alt='linkedIn' className='iconContacts' width='60px'/></a> 
+                <a href='mailto:savosya23@gmail.com'className='headerLink'><img src={mail} alt='mail' className='iconContacts' width='60px'/></a> 
+                <a href='tel:+31686158639' className='headerLink'><img src={phone} alt='phone' className='iconContacts' width='60px'/></a>
             </div>
         </div>
     )

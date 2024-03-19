@@ -34,10 +34,13 @@
     height: 80%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10px;
     right: 0;
     display: flex;
     align-items: center;
+    line-height: 0.5;
+    justify-content: space-between;
+    flex-wrap: wrap;
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 20px;
@@ -46,9 +49,11 @@
 
 .technoPar {
     color: white;
+    padding: 0;
+    margin-left: -10px;
     font-size: 18px;
     font-weight: bolder;
-    text-align: center;
+    line-height: 0.5;
 } 
 
 .projectLinkContainer {
@@ -58,8 +63,4 @@
 
 .projectLink {
     font-size: 18px;
-}
-
-@media all and (max-width: 800px) {
-
 }

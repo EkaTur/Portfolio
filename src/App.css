@@ -63,7 +63,7 @@ body {
     box-shadow: 0 0 200px 200px rgba(255, 255, 255, 0.105);
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1215px) {
   .fixedContainer {
       position: static;
     }
@@ -89,18 +89,37 @@ body {
 
 @media all and (max-width: 800px) {
   .RightSideContainer {
-      width: 750px;
+      width: 100%;
     }
+  
+  .HeaderContainer {
+    margin-left: 100px;
+    width: 750px;
+  }
+
+  .CertificatesContainer {
+    width: 750px;
+  }
 }
 
 @media all and (max-width: 500px){
 
   .RightSideContainer {
-      width: 480px;
+      width: 100%;
   }
 
   .AboutContainer {
       width: 350px;
-    }
+  }
+
+  .HeaderContainer {
+    margin-left: 10px;
+    width: 350px;
+  }
+
+  .CertificatesContainer {
+    width: 350px;
+    align-self: center;
+  }
 }
 

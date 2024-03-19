@@ -23,6 +23,10 @@ li {
     opacity: 0.7;
 }
 
+.iconContacts {
+    filter: drop-shadow(1px 1px 10px #FFF);
+}
+
 .origin {
     opacity: 0.5;
     transition: opacity 3s ease;
@@ -77,7 +81,7 @@ body {
     scroll-behavior: smooth;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1215px) {
     nav{
         display: none;
     }

@@ -12,7 +12,7 @@ p {
     font-weight: bold;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1215px) {
     .aboutHeader {
         margin-top: 20px;
     }
