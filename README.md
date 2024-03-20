@@ -4,7 +4,7 @@ Welcome to my portfolio website repository! This project showcases my skills and
 
 ## Live Demo
 
-You can check out the live version of this website [here]([https://your-portfolio-website-url.com](https://main--ekaterina-savoskina.netlify.app/)).
+You can check out the live version of this website [here](https://main--ekaterina-savoskina.netlify.app/).
 
 ## Features
 
