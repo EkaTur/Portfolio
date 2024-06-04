@@ -20,11 +20,11 @@ const Projects = () => {
                                 <h3 className='projectName'>{name}</h3>
                             </div>
                             {hoveredProject === id && (
-                                <ul className='technologiesContainer'>
+                                <div className='technologiesContainer'>
                                     {technologies.map((item, id) => (
-                                        <li className='technoPar' key={id}>{item}</li>
+                                        <p className='technoPar' key={id}>{item}</p>
                                     ))}
-                                </ul>
+                                </div>
                                 )}
                             <div>
                                 <img className='projectMoc' src={`${image}.png`} alt='projectPhoto' width="350px" />

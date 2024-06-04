@@ -30,30 +30,28 @@
 
 .technologiesContainer {
     background-color: rgba(0, 0, 0, 0.7);
-    width: 300px;
+    width: 315px;
     height: 80%;
     position: absolute;
     top: 0;
     left: 10px;
     right: 0;
     display: flex;
-    align-items: center;
-    line-height: 0.5;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
     flex-wrap: wrap;
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 20px;
-    list-style: none;
 }
 
 .technoPar {
     color: white;
     padding: 0;
-    margin-left: -10px;
+    margin: 0px 5px 0px 5px;
     font-size: 18px;
     font-weight: bolder;
-    line-height: 0.5;
+    align-self: center;
 } 
 
 .projectLinkContainer {
