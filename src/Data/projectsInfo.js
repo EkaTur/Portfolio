@@ -81,17 +81,17 @@ export const projectsInfo = [
         technologies: ["HTML", "CSS", "GSAP"]
     },
 
-    {
-        id: 10,
-        name: "Anti-boredom app",
-        link: "https://anti-boredom.netlify.app/",
-        gitHub: "https://github.com/EkaTur/Anti-boring-app",
-        image: "antiboredommoc",
-        technologies: ["HTML", "React", "CSS", "GSAP", "API"]
-    },
+    // {
+    //     id: 10,
+    //     name: "Anti-boredom app",
+    //     link: "https://anti-boredom.netlify.app/",
+    //     gitHub: "https://github.com/EkaTur/Anti-boring-app",
+    //     image: "antiboredommoc",
+    //     technologies: ["HTML", "React", "CSS", "GSAP", "API"]
+    // },
 
     {
-        id: 11,
+        id: 10,
         name: "Recipes finder",
         link: "https://get-recipe.netlify.app/",
         gitHub: "https://github.com/EkaTur/Recipes",
@@ -100,7 +100,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 12,
+        id: 11,
         name: "Work timer app",
         link: "https://productivity-timer.netlify.app/",
         gitHub: "https://github.com/EkaTur/Work-Timer",
@@ -109,7 +109,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 13,
+        id: 12,
         name: "Math Quiz",
         link: "https://quizmath-app.netlify.app/",
         gitHub: "https://github.com/EkaTur/Math-Quiz",
@@ -118,7 +118,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 14,
+        id: 13,
         name: "Restaurant landing page",
         link: "https://poke-place.netlify.app/",
         gitHub: "https://github.com/EkaTur/Poke-Place/tree/main",
@@ -127,7 +127,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 15,
+        id: 14,
         name: "Salary calculator",
         link: "https://calculate-your-salary.netlify.app/",
         gitHub: "https://github.com/EkaTur/Salary-Calculator/tree/main",
@@ -136,7 +136,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 16,
+        id: 15,
         name: "Split bill app",
         link: "https://split-my-bill-app.netlify.app/",
         gitHub: "https://github.com/EkaTur/Split-Bill/tree/main",
@@ -145,7 +145,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 17,
+        id: 16,
         name: "Christmas countdown app",
         link: "https://santa-on-the-way.netlify.app/",
         gitHub: "https://github.com/EkaTur/Santa-is-Coming/tree/main",
@@ -154,7 +154,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 18,
+        id: 17,
         name: "Numbers game",
         link: "https://what-is-number.netlify.app/",
         gitHub: "https://github.com/EkaTur/Numbers-Game/tree/main",
@@ -163,7 +163,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 19,
+        id: 18,
         name: "Future predictions app",
         link: "https://future-prediction.netlify.app/",
         gitHub: "https://github.com/EkaTur/Future-prediction/tree/main",
