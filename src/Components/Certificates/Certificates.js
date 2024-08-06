@@ -3,6 +3,7 @@ import certifReact from '../../Assets/certificateR.png';
 import certifFrontEnd from '../../Assets/certificateF.png';
 import certifAnim from '../../Assets/certificateA.PNG';
 import certifBootstrap from '../../Assets/certificateB.png';
+import certifNode from '../../Assets/CertificateN.png';
 
 const Certificates = () => {
     return (
@@ -11,6 +12,7 @@ const Certificates = () => {
                 <h2 className="certificatesHeader">CERTIFICATES</h2>
             </div>
             <div className='CertificateContainer'>
+                <img className='certificate' src={certifNode} alt="certificate" width='300px'/>
                 <img className='certificate' src={certifReact} alt="certificate" width='300px' />
                 <img className='certificate' src={certifFrontEnd} alt="certificate" width='300px' />
                 <img className='certificate' src={certifBootstrap} alt="certificate" width='300px' />
