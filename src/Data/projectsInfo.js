@@ -144,17 +144,17 @@ export const projectsInfo = [
         technologies: ["HTML", "CSS", "JavaScript", "GSAP"]
     },
 
-    {
-        id: 17,
-        name: "Christmas countdown app",
-        link: "https://santa-on-the-way.netlify.app/",
-        gitHub: "https://github.com/EkaTur/Santa-is-Coming/tree/main",
-        image: "christmasmoc",
-        technologies: ["HTML", "CSS", "JavaScript", "GSAP"]
-    },
+    // {
+    //     id: 17,
+    //     name: "Christmas countdown app",
+    //     link: "https://santa-on-the-way.netlify.app/",
+    //     gitHub: "https://github.com/EkaTur/Santa-is-Coming/tree/main",
+    //     image: "christmasmoc",
+    //     technologies: ["HTML", "CSS", "JavaScript", "GSAP"]
+    // },
 
     {
-        id: 18,
+        id: 19,
         name: "Numbers game",
         link: "https://what-is-number.netlify.app/",
         gitHub: "https://github.com/EkaTur/Numbers-Game/tree/main",
@@ -163,7 +163,7 @@ export const projectsInfo = [
     },
 
     {
-        id: 19,
+        id: 20,
         name: "Future predictions app",
         link: "https://future-prediction.netlify.app/",
         gitHub: "https://github.com/EkaTur/Future-prediction/tree/main",
