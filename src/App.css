@@ -61,7 +61,7 @@ body {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.105);
     pointer-events: none;
-    mix-blend-mode: color-dodge;
+    mix-blend-mode: normal;
     z-index: 9999;
     top: calc(var(--cursor-y) - 50px);
     left: calc(var(--cursor-x) - 50px);
